@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.nav-link {
+  font-weight: 600;
+  color: #000;
+}
+
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+
+.navbar-nav .nav-item .nav-link {
+  position: relative;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+  color: #ff8c00 !important;
+}
+
+/* .navbar-nav .nav-item .nav-link.active {
+  color: white;
+  background-color: #ff8c00;
+} */
+
+@media (max-width: 576px) {
+  .card {
+    margin: 0 0.5rem;
+  }
+  .card-body {
+    padding: 0.75rem !important;
+    font-size: 0.85rem !important;
+  }
+  h3.fs-5 {
+    font-size: 1rem !important;
+  }
+}
+
+/* Untuk ukuran mobile */
+.responsive-heading {
+  font-size: 1.75rem;
+  line-height: 2rem;
+  margin-bottom: 1rem;
+}
+
+.responsive-text {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+/* Untuk ukuran tablet (768px ke atas) */
+@media (min-width: 768px) {
+  .responsive-heading {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+  }
+
+  .responsive-text {
+    font-size: 1.125rem;
+  }
+}
+
+/* Untuk ukuran desktop (992px ke atas) */
+@media (min-width: 992px) {
+  .responsive-heading {
+    font-size: 2.5rem;
+    line-height: 3rem;
+  }
+
+  .responsive-text {
+    font-size: 1.25rem;
+  }
+}
+
+.contact-title {
+  font-weight: 700;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.contact-info p {
+  margin-bottom: 0.5rem;
+  display: flex;
+  align-items: center;
+}
+
+.contact-info p i {
+  margin-right: 0.5rem;
+  font-size: 1.2rem;
+}
+
+/* Styling untuk link dalam teks */
+.text-white a {
+  color: #fff;
+  text-decoration: none;
+}
+.text-white a:hover {
+  color: #e2e2e2;
+  text-decoration: underline;
+}
+
+/* Pastikan logo tetap responsif */
+.logo img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Penyesuaian untuk layar kecil */
+@media (max-width: 767.98px) {
+  .contact-info p {
+    font-size: 1rem;
+  }
+}
+
+.ratio-9x16 {
+  --bs-aspect-ratio: 177.78%;
+}
